@@ -5,6 +5,6 @@ exports.test = catchAsyncErrors(async(req,res,next) =>{
     // return next(new ErrorHander("Product not found", 404));
     console.log("Controller is reaching")
     res.status(200).json({
-        message:"Route is working fine"
+        message:"User Route is working fine"
     })
 })
